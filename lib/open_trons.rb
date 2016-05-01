@@ -12,7 +12,7 @@ class OpenTrons
       .sub("It uses manual micropipettes", "It uses satanic magic")
       .sub('Open Source', 'Evil Sorcery')
       .sub('contact.html', 'http://lev.io')
-      .sub('personal liquid', 'black magic powered')
+      .sub('The OT-One is a personal liquid handling robot.', 'The OT-One is a black magic powered liquid handling robot.')
       .sub('$3000', '$3000 (and a sacrificial offering of a goat)')
       .gsub('OpenTrons', 'ClosedTrons')
     Rack::Response.new(body)
